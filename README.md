@@ -1,7 +1,7 @@
 # Simple Go Struct-Interface Example
 
 ### Overview
-This Go program demonstrates that structs of different types can be passed into common functions with the help of the interface type variable. This program is an improvement based on a [simpler program](https://github.com/pkx8326/simple_go_json_note-taking) in which no interface is used.
+This Go program demonstrates that structs of different types can be passed into common functions with the help of the interface type variable. It also features the use of type-switch to let a common function operate differently on different struct types. This program is an improvement based on a [simpler program](https://github.com/pkx8326/simple_go_json_note-taking) in which no interface is used.
 
 ### Program manual
 When run, the program asks the user to input the following information in the following order:
